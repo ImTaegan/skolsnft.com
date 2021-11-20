@@ -24,10 +24,10 @@ export default function Index() {
         </div>
         <a
           href="#"
-          className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:align-self-center sm:row-start-3 sm:col-start-1 sm:col-end-3 xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
+          className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center sm:row-start-3 sm:col-start-1 sm:col-end-3 xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
           MINT 11/21
         </a>
-        <div className="flex sm:col-start-2 sm:col-end-2 sm:row-start-1 sm:row-end-3 xl:row-end-4 sm:-mr-8 md:-mr-12 lg:-mr-17 xl:-mr-28">
+        <div className="flex sm:col-start-2 sm:col-end-2 sm:row-start-1 sm:row-end-3 xl:row-end-4 sm:-mr-8 md:-mr-12 lg:-mr-20 xl:-mr-28">
           <Image
             src="/about.gif"
             alt="SKOLs"

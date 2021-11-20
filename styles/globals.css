@@ -24,7 +24,7 @@
   }
 
   #__next {
-    @apply w-full h-full grid gap-8 md:gap-12 lg:gap-14 xl:gap-20;
+    @apply w-full h-full grid gap-8 md:gap-10 lg:gap-12 xl:gap-16;
   }
 }
 
