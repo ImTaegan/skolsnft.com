@@ -3,19 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    font-family: Rubik, ui-sans-serif, system-ui, -apple-system,
-      BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
-      sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-      Noto Color Emoji;
-    line-height: 1.5;
-  }
-
-  body {
-    font-family: inherit;
-    line-height: inherit;
-  }
-
   p {
     @apply text-gray-600 lg:text-2xl xl:text-3xl;
   }
@@ -32,20 +19,36 @@
     @apply text-gray-600 transition-colors duration-200;
   }
 
-  a:hover img {
-    opacity: 90;
-  }
-
   a:hover {
     @apply text-gray-800 underline;
   }
 
   #__next {
-    grid-template-rows: auto;
     @apply w-full h-full grid;
   }
+}
 
-  .grid-custom {
-    grid-template-columns: 1fr auto;
-  }
+html {
+  font-family: Rubik, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  line-height: 1.5;
+}
+
+body {
+  font-family: inherit;
+  line-height: inherit;
+}
+
+a:hover img {
+  opacity: 90;
+}
+
+#__next {
+  grid-template-rows: auto;
+}
+
+.grid-custom {
+  grid-template-columns: 1fr auto;
 }
