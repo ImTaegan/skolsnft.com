@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main className="grid gap-8 md:gap-12 lg:gap-14 my-8 md:my-12">
+      <main className="grid gap-10 md:gap-12 lg:gap-16 xl:gap-24">
         {children}
       </main>
       <Footer />
