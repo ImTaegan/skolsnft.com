@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Index() {
   return (
@@ -26,11 +27,11 @@ export default function Index() {
             place for all NFT lovers!
           </p>
         </div>
-        <a
-          href="#"
-          className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center col-span-full xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
-          MINT 11/21
-        </a>
+        <Link href="/mint">
+          <a className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center col-span-full xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
+            MINT 11/22
+          </a>
+        </Link>
         <div className="flex col-span-full lg:col-start-2 lg:col-end-2 lg:row-start-1 lg:row-end-3">
           <Image
             src="/about.gif"
@@ -41,7 +42,9 @@ export default function Index() {
           />
         </div>
       </section>
-      <section className="max-w-screen-xl grid grid-rows-auto gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
+      <section
+        id="about"
+        className="max-w-screen-xl grid grid-rows-auto gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
         <h1 className="row-start-1 row-end-1 text-center">About SKOLs</h1>
         <div>
           <p className="mb-4 md:mb-6">
@@ -62,7 +65,9 @@ export default function Index() {
       <section className="relative w-full h-44 lg:h-60 xl:h-80">
         <Image src="/cover.png" alt="SKOLs" layout="fill" objectFit="cover" />
       </section>
-      <section className="grid md:grid-cols-2 md:max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
+      <section
+        id="roadmap"
+        className="grid md:grid-cols-2 md:max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
         <h1 className="text-center col-span-full">Roadmap</h1>
         <div>
           <h1 className="mb-4 lg:mb-6">25% SOLD</h1>
@@ -96,7 +101,9 @@ export default function Index() {
           </p>
         </div>
       </section>
-      <section className="grid md:max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
+      <section
+        id="faq"
+        className="grid md:max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
         <h1 className="text-center">FAQ</h1>
         <div>
           <h2>Where is the mint happening?</h2>
@@ -104,7 +111,7 @@ export default function Index() {
         </div>
         <div>
           <h2>When is mint?</h2>
-          <p>We are launching 11/21 at 2pm EST!</p>
+          <p>We are launching 11/22 at 2pm EST!</p>
         </div>
         <div>
           <h2>How much is mint?</h2>

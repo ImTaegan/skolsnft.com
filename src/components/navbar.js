@@ -12,11 +12,13 @@ export default function Navbar() {
 
   return (
     <nav className="grid grid-custom md:items-center lg:auto-cols-max lg:grid-flow-col max-w-screen-xl xl:w-full px-8 md:px-12 py-4 md:py-6 lg:px-20 lg:py-10 xl:px-20 xl:mx-auto">
-      <Link href="/">
-        <a className="hover:no-underline text-black text-2xl font-bold">
-          SKOLs
-        </a>
-      </Link>
+      <div className="flex">
+        <Link href="/">
+          <a className="hover:no-underline text-black text-2xl font-bold">
+            SKOLs
+          </a>
+        </Link>
+      </div>
       <div className="lg:hidden flex row">
         <button onClick={handleToggleMenu}>
           <img src="menu.png" alt="Menu" width={30} height={30} />
@@ -26,27 +28,25 @@ export default function Navbar() {
         className={`lg:flex text-center text-xl col-span-full grid-row-start-2 lg:col-start-2 ${
           toggleMenu ? "block" : "hidden"
         }`}>
-        <a className="block lg:flex py-2 lg:p-0 lg:mr-6" href="#">
-          HOME
-        </a>
-
-        <a className="block lg:flex py-2 lg:p-0 lg:mr-6" href="#">
-          ABOUT
-        </a>
-
-        <a className="block lg:flex py-2 lg:p-0 lg:mr-6" href="#">
-          ROADMAP
-        </a>
-
-        <a className="block lg:flex py-2 lg:p-0 lg:mr-6" href="#">
-          FAQ
-        </a>
-
-        <a className="block lg:flex py-2 lg:p-0 lg:mr-6" href="#">
-          MINT
-        </a>
+        <Link href="/">
+          <a className="block lg:flex py-2 lg:p-0 lg:mr-6">HOME</a>
+        </Link>
+        <Link href="/#about">
+          <a className="block lg:flex py-2 lg:p-0 lg:mr-6">ABOUT</a>
+        </Link>
+        <Link href="/#roadmap">
+          <a className="block lg:flex py-2 lg:p-0 lg:mr-6">ROADMAP</a>
+        </Link>
+        <Link href="/#faq">
+          <a className="block lg:flex py-2 lg:p-0 lg:mr-6">FAQ</a>
+        </Link>
+        <Link href="/mint">
+          <a className="block lg:flex py-2 lg:p-0 lg:mr-6">MINT</a>
+        </Link>
         <div className="flex justify-center">
-          <a className="py-2 px-4 lg:p-0 mr-6" href="#">
+          <a
+            className="py-2 px-4 lg:p-0 mr-6"
+            href="https://twitter.com/SolSkullsNFT">
             <img
               className="opacity-70"
               src="twitter.png"
@@ -55,7 +55,7 @@ export default function Navbar() {
               height={30}
             />
           </a>
-          <a className="py-2 px-4 lg:p-0" href="#">
+          <a className="py-2 px-4 lg:p-0" href="https://discord.gg/qYGrHFNV47">
             <img
               className="opacity-70"
               src="discord.png"
