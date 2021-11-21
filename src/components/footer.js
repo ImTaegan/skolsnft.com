@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 export default function Footer() {
   return (
-    <footer className="md:w-full bg-gray-100">
-      <div className="grid md:grid-flow-col md:auto-cols-max md:justify-between md:max-w-screen-xl mx-8 md:mx-12 my-4 md:my-6 lg:mx-20 lg:my-10 xl:mx-auto lg:text-xl">
+    <footer className="bg-gray-100">
+      <div className="grid md:grid-flow-col md:auto-cols-max md:justify-between md:max-w-screen-xl lg:text-xl px-8 md:px-12 py-4 md:py-6 lg:px-20 lg:py-10 xl:px-20 xl:mx-auto">
         <h3 className="md:col-span-1">© 2021 SKOLs</h3>
         <div className="hidden xl:col-span-auto xl:flex xl:items-center">
           <a className="mr-6 hover:underline hover:text-gray-800" href="#">
@@ -20,7 +20,7 @@ export default function Footer() {
           <a className="mr-6 hover:underline hover:text-gray-800" href="#">
             MINT
           </a>
-          <a className="mr-3" href="#">
+          <a className="mr-6" href="#">
             <img
               className="opacity-70"
               src="twitter.png"

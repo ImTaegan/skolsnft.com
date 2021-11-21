@@ -5,18 +5,22 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>SKOLs, 3333 SKOLs on Solana</title>
-        <meta name="description" content="SKOLs" />
+        <title>SKOLs, 3333 SKOLs on Solana | skolsnft.com</title>
+        <meta
+          name="description"
+          content="SKOLsnft.com - 3333 SKOLs on Solana. SKOLs is a unique three-part Solana project. We are passionate about
+            having a strong and positive community."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <section className="grid grid-cols-none grid-flow-row gap-10 md:gap-12 lg:gap-16 max-w-screen-xl xl:mx-auto mx-8 md:mx-12 lg:mx-20">
-        <h1 className="col-span-1">Welcome to SKOLs</h1>
-        <div className="sm:col-span-1">
+      <section className="grid md:grid-flow-row max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
+        <h1 className="col-span-full">Welcome to SKOLs</h1>
+        <div className="col-span-full">
           <p className="mb-4 md:mb-6">
             SKOLs is a unique three-part Solana project. We are passionate about
             having a strong and positive community.
           </p>
-          <p className="">
+          <p>
             We are putting our money where our mouth is and giving away 400 free
             mints to victims of scam projects, we would like to create a safe
             place for all NFT lovers!
@@ -24,10 +28,10 @@ export default function Index() {
         </div>
         <a
           href="#"
-          className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center sm:row-start-3 sm:col-start-1 sm:col-end-3 xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
+          className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center col-span-full xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
           MINT 11/21
         </a>
-        <div className="flex sm:col-start-2 sm:col-end-2 sm:row-start-1 sm:row-end-3 xl:row-end-4 sm:-mr-8 md:-mr-12 lg:-mr-20 xl:-mr-28">
+        <div className="flex col-span-full lg:col-start-2 lg:col-end-2 lg:row-start-1 lg:row-end-3">
           <Image
             src="/about.gif"
             alt="SKOLs"
@@ -37,7 +41,7 @@ export default function Index() {
           />
         </div>
       </section>
-      <section className="max-w-screen-xl grid grid-rows-auto gap-10 md:gap-12 lg:gap-16 xl:mx-auto mx-8 md:mx-12 lg:mx-20">
+      <section className="max-w-screen-xl grid grid-rows-auto gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
         <h1 className="row-start-1 row-end-1 text-center">About SKOLs</h1>
         <div>
           <p className="mb-4 md:mb-6">
@@ -55,10 +59,10 @@ export default function Index() {
           </p>
         </div>
       </section>
-      <section className="relative w-full h-40 lg:h-60 xl:h-80">
+      <section className="relative w-full h-44 lg:h-60 xl:h-80">
         <Image src="/cover.png" alt="SKOLs" layout="fill" objectFit="cover" />
       </section>
-      <section className="grid md:grid-cols-2 md:max-w-screen-xl mx-8 md:mx-12 lg:mx-20 gap-10 md:gap-12 lg:gap-16 xl:mx-auto">
+      <section className="grid md:grid-cols-2 md:max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
         <h1 className="text-center col-span-full">Roadmap</h1>
         <div>
           <h1 className="mb-4 lg:mb-6">25% SOLD</h1>
@@ -92,7 +96,7 @@ export default function Index() {
           </p>
         </div>
       </section>
-      <section className="grid gap-10 md:gap-12 lg:gap-16 md:max-w-screen-xl mx-8 md:mx-12 lg:mx-20 xl:mx-auto">
+      <section className="grid md:max-w-screen-xl gap-6 md:gap-8 lg:gap-10 px-8 md:px-12 py-8 md:py-12 lg:px-20 lg:py-20 xl:mx-auto">
         <h1 className="text-center">FAQ</h1>
         <div>
           <h2>Where is the mint happening?</h2>

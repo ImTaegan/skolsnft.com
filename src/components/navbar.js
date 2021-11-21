@@ -11,7 +11,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="grid grid-custom md:items-center lg:auto-cols-max lg:grid-flow-col max-w-screen-xl mx-8 my-4 md:mx-12 md:my-6 lg:mx-20 lg:my-10 xl:mx-auto xl:w-full">
+    <nav className="grid grid-custom md:items-center lg:auto-cols-max lg:grid-flow-col max-w-screen-xl xl:w-full px-8 md:px-12 py-4 md:py-6 lg:px-20 lg:py-10 xl:px-20 xl:mx-auto">
       <Link href="/">
         <a className="hover:no-underline text-black text-2xl font-bold">
           SKOLs
