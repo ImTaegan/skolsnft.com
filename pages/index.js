@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Index() {
   return (
-    <>
+    <main className="">
       <Head>
         <title>SKOLs, 3333 SKOLs on Solana | skolsnft.com</title>
         <meta
@@ -123,6 +123,6 @@ export default function Index() {
           </p>
         </div>
       </section>
-    </>
+    </main>
   );
 }

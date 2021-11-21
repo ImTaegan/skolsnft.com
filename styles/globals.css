@@ -46,8 +46,13 @@ a:hover img {
 }
 
 #__next {
+  grid-template-rows: auto 1fr auto;
 }
 
 .grid-custom {
   grid-template-columns: 1fr auto;
+}
+
+.grid-auto-fr-auto {
+  grid-template-rows: auto 1fr auto;
 }
