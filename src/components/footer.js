@@ -19,9 +19,12 @@ export default function Footer() {
           <Link href="/#faq">
             <a className="mr-6 hover:underline hover:text-gray-800">FAQ</a>
           </Link>
-          <Link href="/mint">
-            <a className="mr-6 hover:underline hover:text-gray-800">MINT</a>
-          </Link>
+          <a
+            href="https://skolsnft.vercel.app/"
+            className="mr-6 hover:underline hover:text-gray-800">
+            MINT
+          </a>
+
           <a className="mr-6" href="https://twitter.com/SolSkullsNFT">
             <img
               className="opacity-70"

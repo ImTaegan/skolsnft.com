@@ -40,9 +40,13 @@ export default function Navbar() {
         <Link href="/#faq">
           <a className="block lg:flex py-2 lg:p-0 lg:mr-6">FAQ</a>
         </Link>
-        <Link href="/mint">
-          <a className="block lg:flex py-2 lg:p-0 lg:mr-6">MINT</a>
-        </Link>
+
+        <a
+          href="https://skolsnft.vercel.app/"
+          className="block lg:flex py-2 lg:p-0 lg:mr-6">
+          MINT
+        </a>
+
         <div className="flex justify-center">
           <a
             className="py-2 px-4 lg:p-0 mr-6"
