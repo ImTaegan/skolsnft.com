@@ -27,11 +27,13 @@ export default function Index() {
             place for all NFT lovers!
           </p>
         </div>
-        <Link href="/mint">
-          <a className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center col-span-full xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
-            MINT SOON
-          </a>
-        </Link>
+
+        <a
+          href="https://skolsnft.vercel.app/"
+          className="w-full sm:w-40 md:w-60 xl:px-20 xl:w-auto xl:px-6 sm:justify-self-center sm:self-center col-span-full xl:col-span-1 px-3 py-3 text-center text-base font-medium lg:text-xl xl:text-2xl bg-gray-900 hover:bg-gray-700 hover:text-white text-white hover:no-underline transition-colors duration-200">
+          MINT NOW
+        </a>
+
         <div className="flex col-span-full lg:col-start-2 lg:col-end-2 lg:row-start-1 lg:row-end-3">
           <Image
             src="/about.gif"
@@ -111,7 +113,7 @@ export default function Index() {
         </div>
         <div>
           <h2>When is mint?</h2>
-          <p>We are launching 11/22!</p>
+          <p>We are launching 11/23!</p>
         </div>
         <div>
           <h2>How much is mint?</h2>
